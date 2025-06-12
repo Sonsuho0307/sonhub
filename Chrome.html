@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>새 탭</title>
+    <link rel="stylesheet" href="Chrome.css" />
+  </head>
+  <body>
+<header>
+      <nav class="google-navbar">
+        <ul class="nav-container">
+          <li class="nav-item item1">Gmail</li>
+          <li class="nav-item item2">이미지</li>
+          <li class="nav-item item-labs">
+            <img class="labs" src="labs.png" alt="실험실">
+          </li>
+          <li class="nav-item item-apps">
+            <img class="apps" src="google app.png" alt="google 앱" >
+          </li>
+          <li class="nav-item item-profile">
+            <img class="profile" src="profile.png" alt="프로필" >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="google-main">Google</div>
+
+    <div class="container-box">
+      <form class="search-box" action="https://www.google.com/search" method="get">
+        <button class="search-btn" type="submit">
+          <img class="search-image" src="search.png"  alt="검색">
+        </button>
+        <input class="search-text" name="q" type="text" autocomplete="off" placeholder="google 검색 또는 URL 입력" />
+
+        <button type="button" class="voice-btn" title="음성 검색">
+          <img class="search-mic" src="mic.png" alt="음성 검색" >
+        </button>
+        <button type="button" class="image-btn" title="이미지로 검색">
+          <img class="search-camera" src="camera.png" alt="이미지로 검색">
+        </button>
+      </form>
+    </div>
+    
+    </div>
+
+
+    <!--      바로가기 탭      -->
+    <div class="link">
+      <ul>
+        <li class="link-icon">
+          <a href="https://www.youtube.com" target="_blank">
+            <div class="icon">
+              <div class="circle">
+                <img class="image" src="youtube.png" alt="youtube" />
+              </div>
+            </div>
+            <div class="icon-text">youtube</div>
+          </a>
+        </li>
+        <li class="link-icon">
+          <a href="https://www.naver.com" target="_blank">
+            <div class="icon">
+              <div class="circle">
+                <img class="image-naver" src="naver1.png" alt="naver" />
+              </div>
+            </div>
+            <div class="icon-text">naver</div>
+          </a>
+        </li>
+        <li class="link-icon">
+          <a href="https://www.notion.com/ko" target="_blank">
+            <div class="icon">
+              <div class="circle">
+                <img class="image-notion" src="notion.png" alt="notion" />
+              </div>
+            </div>
+            <div class="icon-text">notion</div>
+          </a>
+        </li>
+        <li class="link-icon">
+          <a href="https://velog.io" target="_blank">
+            <div class="icon">
+              <div class="circle">
+                <img class="image-velog" src="velog.png" alt="velog" />
+              </div>
+            </div>
+            <div class="icon-text">velog</div>
+          </a>
+        </li>
+        <li class="link-icon">
+          <a href="#">
+            <div class="icon">
+              <div class="circle">
+                <img class="image-plus" src="plus.png" alt="바로가기 추가" />
+              </div>
+            </div>
+            <div class="icon-text">바로가기 추가</div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
