@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation-basic</title>
+    <style>
+      .shape {
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        margin-top: 80px;
+      }
+
+      .animation1 {
+        animation-name: shape-color;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes shape-color {
+        from {
+          background-color: red;
+        }
+        30% {
+          background-color: orange;
+        }
+        50% {
+          background-color: yellow;
+        }
+        70% {
+          background-color: green;
+        }
+        to {
+          background-color: blue;
+        }
+      }
+
+      .animation2 {
+        animation-name: circle;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes circle {
+        0% {
+          border-radius: 0;
+        }
+        50% {
+          border-radius: 20%;
+        }
+        100% {
+          border-radius: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="shape animation1"></div>
+      <div class="shape animation2"></div>
+    </main>
+  </body>
+</html>

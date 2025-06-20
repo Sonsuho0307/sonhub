@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radio%Checkbox</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>좋아하는 색상을 모두 선택하시오</legend>
+        <ul>
+          <li>
+            <label for="red">빨강</label>
+            <input type="checkbox" id="red" value="red" />
+          </li>
+          <li>
+            <label for="blue">파랑</label>
+            <input type="checkbox" id="blue" value="blue" />
+          </li>
+          <li>
+            <label for="green">초록</label>
+            <input type="checkbox" id="green" value="green" />
+          </li>
+          <li>
+            <label for="yellow">노랑</label>
+            <input type="checkbox" id="yellow" value="yellow" />
+          </li>
+          <li>
+            <label for="pink">분홍</label>
+            <input type="checkbox" id="pink" value="pink" />
+          </li>
+        </ul>
+      </fieldset>
+
+      <fieldset>
+        <legend>가장 좋아하는 색을 고르시오</legend>
+        <ul>
+          <li>
+            <label for="red">빨강</label>
+            <input type="radio" name="color" id="red" value="red" />
+          </li>
+          <li>
+            <label for="blue">파랑</label>
+            <input type="radio" name="color" id="blue" value="blue" />
+          </li>
+          <li>
+            <label for="yellow">노랑</label>
+            <input type="radio" name="color" id="yellow" value="yellow" />
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>자기소개서</legend>
+        <textarea name=" " id="" cols="40" rows="10">
+자기소개서 입니다</textarea
+        >
+      </fieldset>
+      <fieldset>
+        <legend>주문 상품을 선택하시오</legend>
+        <ul>
+          <li>
+            <select name="goods" id="goods" multiple>
+              <option value="apple_10kg">사과 10kg</option>
+              <option value="apple_15kg" selected>사과 15kg</option>
+              <option value="apple_20kg">사과 20kg</option>
+              <option value="apple_30kg">사과 30kg</option>
+            </select>
+          </li>
+          <li></li>
+        </ul>
+      </fieldset>
+      <button type="submit">제출하기</button>
+      <button type="reset">초기화</button>
+      <button type="button" onclick="alert('Hello world~!')">버튼</button>
+    </form>
+    <form action="">
+      <fieldset></fieldset>
+    </form>
+  </body>
+</html>
